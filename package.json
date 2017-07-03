@@ -1,0 +1,17 @@
+{
+  "name": "solidify",
+  "version": "1.0.0",
+  "description": "Merges all solidity files that are imported into one to enable uploading it to etherscan code check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Kochin <k@ties.network>",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "promisify-node": "^0.4.0",
+    "semver": "^5.3.0",
+    "solidity-parser": "^0.3.0"
+  }
+}
